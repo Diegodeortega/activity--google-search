@@ -1,0 +1,53 @@
+.container {
+  max-width: 484px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin: 25px auto;
+  border: 1px solid rgb(0, 0, 0, 0.16);
+  border-radius: 2px;
+}
+
+input {
+  flex: 1;
+  border: 0;
+  border-color: rgb(204, 204, 204);
+  border-radius: 2px;
+  padding-left: 10px;
+}
+
+.microphone {
+  border: 0;
+  width: 50px;
+  background-color: white;
+}
+
+button:hover {
+  cursor: pointer;
+
+}
+
+.microphone i{
+  background-color: rgb(240, 240, 240);
+  color: rgba(0,0,0,0.4);
+  font-size: 20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.button {
+  border: 0;
+  width: 145px;
+  height: 36px;
+  margin-right: 10px;
+  border-color: #F2F2F2;
+  fill: #F2F2F2;
+  font-size: 13px;
+  color: rgba(0,0,0,0.4);
+  font-weight: bolder;
+}
